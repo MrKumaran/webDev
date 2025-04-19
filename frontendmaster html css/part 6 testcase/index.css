@@ -2,10 +2,127 @@
 
 Feel free to use Google fonts or standard system fonts as you prefer. */
 *, *::after, *::before {
-  font-family: arial;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: black;
-  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  background-color: #F6FBFC;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-style: oblique;
+}
+
+div {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  border-bottom: 1px solid black;
+  max-width: 800px;
+}
+
+.CenterTable {
+  display: grid;
+  justify-content: center;
+}
+
+.Tip{
+  display: grid;
+  justify-content: center;
+}
+
+dl {
+  column-fill: auto;
+}
+
+div:first-of-type{
+  padding-top: 2rem;
+}
+
+div:last-of-type{
+  border: None;
+}
+
+dt {
+  grid-column-start: 1;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+dd {
+  grid-column-start: 2;
+  padding-left: 10px;
+  margin: 0;
+}
+
+#tipDT {
+  color: #04BFBF;
+}
+
+img {
+  display: block;
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  border-bottom: 1px solid black;
+  max-width: 800px;
+  justify-content: center;
+}
+
+h4 {
+  margin: 0;
+  padding-top: 20px;
+  border-bottom: 1px solid #F28705;
+  border-radius: 2px;
+  border-width: medium;
+}
+
+ul {
+  margin: 0;
+  padding-top: 20px;
+}
+
+ol {
+  margin: 0;
+  padding-top: 20px;
+}
+
+li {
+  padding-top: 2px;
+}
+
+a {
+  color: #049DBF;
+}
+
+ul li:nth-child(odd)::marker{
+  color: #F28705;
+}
+ul li:nth-child(even)::marker{
+  color: #D96704;
+}
+
+span {
+   color: #04BFBF;
+}
+
+#equipment {
+  width: 180px;
+  padding-top:  10px;
 }
