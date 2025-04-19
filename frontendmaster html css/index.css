@@ -18,3 +18,36 @@ ul ol ol a{
 ul.nested li ~ li{
   color: green;
 }
+
+/*
+css apply last style to object just like programming language
+use last assigned value of variables
+*/
+
+[title] {
+  background-color: orange;
+}
+
+[title="unguessable"]{
+  background-color: yellow;
+}
+
+/* REGEX matching uess in string title*/
+[title *= "uess"]{
+  border: 1px dashed black;
+}
+
+/*Begining with Guess in title*/
+[title^= "Guess"]{
+  color: white;
+}
+
+/*Ending with this in title*/
+[title$="this"]{
+  border-bottom: 5px solid black;
+}
+
+/* adding (PDF) at end of link with pdf */
+[href *= ".pdf"]::after{
+  content: "(PDF)";
+}
