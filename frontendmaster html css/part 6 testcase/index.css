@@ -1,0 +1,11 @@
+/* Pro tip: Run the image through Adobe Color at https://color.adobe.com/create/image to generate a color palette, if you don't have a palette in mind.
+
+Feel free to use Google fonts or standard system fonts as you prefer. */
+*, *::after, *::before {
+  font-family: arial;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
