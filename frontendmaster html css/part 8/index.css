@@ -1,3 +1,7 @@
+:root {
+   --creep: 'Creepster', cursive;
+}
+
 body {
   font-family:sans-serif;
   display: block;
@@ -12,6 +16,7 @@ h2 {
   padding-top: 20px;
   font-size: 40px;
   text-align: center;
+  font-family:var(--creep);
 }
 
 nav {
@@ -101,4 +106,9 @@ figure {
 
 footer {
   margin: 4rem;
+}
+
+ol:has(li:nth-child(3)){
+  columns: 2;
+  justify-content: space-between;
 }
