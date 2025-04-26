@@ -80,6 +80,7 @@ function resetScore(){
     guestScore.innerText = guestScoreCount
     color()
     wins = false
+    winner.style.display = 'none'
 }
 
 function whoWins(){
