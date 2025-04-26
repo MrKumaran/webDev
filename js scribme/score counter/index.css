@@ -45,7 +45,7 @@ button {
 }
 
 button:hover {
-    background-color: gold;
+    background-color: #9AABD8;
     color: black;
     border: 1px solid black;
 }
