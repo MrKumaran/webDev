@@ -11,18 +11,18 @@
 }
 
 body {
-    box-sizing: content-box;
-    margin: 10rem 10rem ;
+    box-sizing: border-box;
+    margin: 10rem;
+    text-align: center;
+    justify-items: center;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
-    border: none;
 }
 
 h1 {
-    text-align: center;
     font-size: 48px;
 }
 
@@ -53,12 +53,12 @@ button:hover {
 div {
     font-family: lcd;
     justify-items: center;
+    padding: 0 40 0 40;
 }
 
 p {
     background-color: black;
     color: #F94F6D;
-    text-align: center;
     height: 180px;
     width: 180px;
     align-content: center;
@@ -68,10 +68,13 @@ p {
 }
 
 #reset {
-    display: flex;
-    justify-self: center;
     margin: 4rem;
     font-size: x-large;
     border-radius: 8px;
     padding: 20px;
+}
+
+#who-wins {
+    display: none;
+    width: 500px;
 }
