@@ -9,20 +9,20 @@
         <div class="container">
             <div>
                 <h3>HOME</h3>
-                <p id="home-score">0</p>
-                <button>+1</button>
-                <button>+2</button>
-                <button>+3</button>
+                <p id="home-score"></p>
+                <button onclick = "incrementOneHome()">+1</button>
+                <button onclick = "incrementTwoHome()">+2</button>
+                <button onclick = "incrementThreeHome()">+3</button>
             </div>
             <div>
                 <h3>GUEST</h3>
-                <p id = "guest-score">0</p>
-                <button>+1</button>
-                <button>+2</button>
-                <button>+3</button>
+                <p id = "guest-score"></p>
+                <button onclick = "incrementOneGuest()">+1</button>
+                <button onclick = "incrementTwoGuest()">+2</button>
+                <button onclick = "incrementThreeGuest()">+3</button>
             </div>
         </div>
-        <button id = "reset">Reset Score</button>
+        <button id = "reset" onclick="resetScore()">Reset Score</button>
         <script src="index.js"></script>
     </body>
 </html>
